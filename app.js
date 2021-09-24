@@ -1,4 +1,7 @@
-  
+window.addEventListener('contextmenu', function (e) { 
+  // do something here... 
+  e.preventDefault(); 
+}, false);
     //Julio Codes Start HEre
     //toggle menu visibility
     $(document).ready(function(){

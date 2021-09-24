@@ -53,11 +53,11 @@
   .section-heading h1 {
     font-family: "Roboto", sans-serif;
     font-size: 3.5rem;
-    color: rgb(15, 76, 117);
+    color: rgba(122, 0, 204, 0.644);
     text-transform: uppercase;
     font-weight: 900;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;section-heading
     letter-spacing: 0.1rem;
   }
   
@@ -253,7 +253,7 @@
   .languages h1{
     font-family: "Roboto", sans-serif;
     font-size: 3rem;
-    color: rgba(122, 0, 204, 0.644);
+    color: rgba(147, 12, 236, 0.644);
     font-weight: 700;
     position: center;
     height: min-content;
@@ -352,34 +352,6 @@
    }
    
    
-   .portfolio-long a, .bio a{
-     color: rgb(154, 0, 214);
-     font-weight: 600;
-   }
-   
-   .portfolio-long .subheading{
-     margin-top: 1rem;
-     color: rgb(154, 0, 214);
-     display: block;
-     text-align:left;
-     font-weight: 900;
-     font-size: 2rem;
-   }
-   
-   .portfolio-long ul, .bio ul{
-     margin-left: 2rem;
-     font-size: 1.8rem;
-     text-align: left;
-   }
-   
-   .nested li{
-   padding: 0 !important;
-   margin-left: 10px;
-   }
-   
-   .portfolio-long li{
-     padding: 1rem;
-   }
    
   /*End services*/
   
@@ -393,7 +365,7 @@
   .copyright {
     width: 100%;
     text-align: center;
-    background-color: rgb(154, 0, 214);
+    background-color: rgba(122, 0, 204, 0.644);
     padding: 2rem 0;
     position: relative;
   }  
