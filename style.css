@@ -14,7 +14,7 @@
   body {
     width: 100%;
     height: 100%;
-    background-color: #b16e2f;
+    background-color: #0b8797;
     text-align: center;
     
   }
@@ -57,7 +57,7 @@
     text-transform: uppercase;
     font-weight: 900;
     position: relative;
-    margin-bottom: 1rem;section-heading
+    margin-bottom: 1rem;
     letter-spacing: 0.1rem;
   }
   
@@ -109,9 +109,6 @@
     font-size: 8rem;
     font-weight: 500;
     font-family: "Rock Salt", sans-serif;
-    background: linear-gradient(to top, #e4e4e4 25%, rgb(154, 0, 214));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding: 2.6rem;
     user-select: none;
     line-height: 1.1;
@@ -124,8 +121,6 @@
     margin-bottom: 2rem;
   
   }
-  
-  
   .landingbtn {
     margin: 0 auto;
     background-color: rgb(43, 31, 31);
@@ -153,7 +148,7 @@
   /* typewriter */
   .txt-type>.txt {
     font-family: "Poppins", "sans-serif";
-    border-right: 0.2rem solid rgb(154, 0, 214);
+    border-right: 0.2rem solid #0b8797;
   }
   
   /*End header*/
@@ -253,8 +248,8 @@
   .languages h1{
     font-family: "Roboto", sans-serif;
     font-size: 3rem;
-    color: rgba(147, 12, 236, 0.644);
-    font-weight: 700;
+    color: rgba(122, 0, 204, 0.644);
+    font-weight: 900;
     position: center;
     height: min-content;
 
@@ -375,7 +370,7 @@
     margin: auto;
   }
   
-
+  
   
   /*Start media queries for mobile*/
   
