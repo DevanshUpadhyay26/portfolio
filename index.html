@@ -1,186 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="https://png.pngtree.com/png-vector/20190227/ourlarge/pngtree-vector-new-moon-icon-png-image_707396.jpg">
     <meta name="description" content="Hry guys, this is my personal portfolio website made with HTML, CSS and JS">
-    <link rel="shortcut icon" href="images/icon1.png" type="image/x-icon">
-    <title>Devansh Upadhyay</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- dev icons -->
-    <link rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Kaushan+Script|Raleway|Alata|Roboto|Open+Sans:300|Special+Elite|Baloo+Bhaina+2|Viga|Homemade+Apple|Rock+Salt&display=swap"
-        rel="stylesheet">
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-172731287-1');
-    </script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-    <meta name="theme-color" content="#090a20" />
-</head>
-<body>
-    <a id="topupbutton"></a>
-        <header>
-            <div class="landing-text" style="
-                    position: absolute;
-                    width: 100%;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    text-align: center;
-                    z-index: 1;
-        ">
-                <h1>Devansh
-                </h1> <br>
-
-                <!-- animated h6 -->
-                
-
-                <a class="landingbtn" href="#portfolio">
-                    <p> See my work! </p>
-                </a><br>
-                <a class="landingbtn" target="_blank" href="Devansh's Resume.pdf">
-                    <p> My Resume </p>
-                </a>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+      <section class="hero">
+          <nav>
+              <button class="hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+              </button>
+          </nav>
+          <div class="hero-area">
+            <div class="hero-text">
+                <h1>Devansh Upadhyay</h1>
+                <p>Sophomore year Undergraduate <br>and Java Enthusiast</p>
+                <div class="button"><a href="src/resume.pdf" target="_blank" > Resume</a></div>
             </div>
-        </header>
-
-        <!-- about section -->
-        <section id="about" class="about">
-            <div class="container">
-                <div class="profile-img" data-aos="fade-in" data-aos-delay="100">
-                    <img src="images/profile_circle.png" alt="profile picture">
-                </div>
-                <div class="about-details" data-aos="fade-in" data-aos-delay="200">
-                    <div class="about-heading">
-                        <h1>About</h1>
-                        <h6>Myself</h6>
-                    </div>
-                    <p>
-                        Hey there, This is Devansh Upadhyay . I am an Undergraduate student pursuing B. Tech degree from BVUCOE Navi Mumbai. Always willing to learn and implement. Proficient in Code Development. Have an experience in the fields of Web Development.
-                    </p>
-                    <div class="social-media">
-                        <ul class="nav-list">
-                            <li>
-                                <a target="_blank" href="https://www.linkedin.com/in/devansh-upadhyay/" class="icon-link"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://github.com/DevanshUpadhyay26" class="icon-link"><i
-                                        class="fab fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://leetcode.com/devansh_u112/" class="icon-link"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png"/>
-                                    <i class="fab fa-leetcode"></i></a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://devanshupadhyay01.medium.com/" class="icon-link"><img src="https://img.icons8.com/stickers/48/000000/medium-logo.png"/></div></i></a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
+            <div class="socials">
+                <div><a href="https://twitter.com/___Devansh___" class="social" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                </a></div>
+                <div><a href="https://github.com/DevanshUpadhyay26"  class="social" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a></div>
+                <div><a href="https://www.linkedin.com/in/devansh-upadhyay/"  class="social" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+                </a></div>
             </div>
-        </section>
-        <section class="languages" id="languages">
-            <div class="section-heading">
-                <h1>Languages & Tools</h1>
-                <h6>Languages I know And Tools I use for development</h6>
+          </div>
+      </section>
+      <section class="sub-section" id="about-me">
+          <div class="information">
+              <h2>About Me</h2>
+                <p>Hey there, This is Devansh Upadhyay . I am an Undergraduate student pursuing B. Tech degree from BVDUCOE Navi Mumbai. Always willing to learn and implement. Proficient in Code Development. Have an experience in the fields of Web Development.</p>  
             </div>
-                <img src="https://img.icons8.com/color/50/000000/java-coffee-cup-logo--v1.png"/>
-                <span class="skillicon-title" style="height: 10px;">
-                    <p>Java</p><br>
-                </span>
-                <img src="https://img.icons8.com/color/50/000000/c-plus-plus-logo.png"/>
-                <span class="skillicon-title" style="height: 10px;">
-                    <p>C & C++</p><br>
-                </span>
-                <img src="https://img.icons8.com/color/50/000000/python--v1.png"/>
-                <span class="skillicon-title" style="height: 10px;">
-                    <p>Python</p>
-                </span><br>
-                <img src="https://img.icons8.com/color/50/000000/mysql-logo.png"/>
-                <span class="skillicon-title" style="height: 10px;">
-                    <p>MySQL</p><br>
-                </span>
-                <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/50/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png"/>
-                <span class="skillicon-title" style="height: 10px;">
-                    <p>Web Development</p><br>
-                </span>
-                <img src="https://img.icons8.com/color/50/000000/git.png"/>
-                <span class="skillicon-title" style="height: 10px;">
-                    <p>Git</p>
-                </span>
-        </section>
-        <!-- portfolio section -->
-        <section class="portfolio" id="portfolio">
-            <div class="container">
-                <div class="section-heading">
-                    <h1>Portfolio</h1>
-                    <h6>What I've done</h6>
-                </div>
-                
-                <!-- port1 -->
-                <div class="portfolio-item">
-
-
-                    <div class="portfolio-description">
-                        <h1>Chat Application for Students using Flutter and Dart with Firebase</h1>
-                        <a href="https://github.com/Glonk-0/college_chat" target="_blank" class="cta">View Github <i
-                                class="fab fa-github"></i></a> <br>
-                            
-                    </div>
-
-                    <div class="portfolio-img" data-aos="fade-in" data-aos-delay="100">
-                        <img src="images/portitem1.png" alt="">
-                    </div>
-                </div> 
-                <div class="portfolio-img" data-aos="fade-in" data-aos-delay="100">
-                    <img src="https://raw.githubusercontent.com/DevanshUpadhyay26/Data-Analysis-Zomato/main/ss.png" alt="">
-                </div>
-                <div class="portfolio-description">
-                    <h1>Data Analytics implementation on Zomato's Dataset</h1>
-                    <a href="https://github.com/DevanshUpadhyay26/Data-Analysis-Zomato" target="_blank" class="cta">View Github <i
-                            class="fab fa-github"></i></a> <br>
-                        
-                </div>
-
-                
-            </div> 
-                 <!-- /port1 -->
-            </div>
-        </section>
-        <!-- /portfolio section -->
-
-        <!-- contact section -->
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="section-heading">
-                    <h1>Contact</h1>
-                    <h6>Let's create something together! Get in touch: <a id="email" href="mailto:devanshupadhyay26@gmail.com">devanshupadhyay26@gmail.com</a> </h6>
-                </div>
-        
-    </div> <!-- particles div -->
-    <!-- end scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!-- aos -->
-    <script>
-        AOS.init();
-    </script>
-    <!-- end scripts -->
-
-
-</body>
-
+          <div class="headshot-container">
+              <img class="headshot" src="src/images/headshot.png" alt="devansh's headshot"/>
+          </div>
+      </section>
+      <section class="sub-section-alternative" id="projects">
+        <hr>  
+        <h2>Projects</h2>
+          <div class="project-container">
+              <div class="project-card">
+                  <img class="project-image" src="src/images/project1.png" alt="Project One Image"/>
+                  <h3>Data Analysis on Dataset</h3>
+                  <p class="subtext">The Project focuses on Customers and Company, we have analyzed the data and made some useful conclusion
+                    in the form of Visualizations</p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="https://github.com/DevanshUpadhyay26/Data-Analysis-Zomato">View here</a></p>
+              </div>
+              <div class="project-card">
+                <img class="project-image" src="src/images/project2.png" alt="Project One Image"/>
+                <h3>Portfolio Website</h3>
+                <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://github.com/DevanshUpadhyay26/portfolio">View here</a></p>
+              </div>
+          </div> <br><br>
+          <hr>
+          <h2>Blogs</h2>
+          <div class="project-container">
+              <div class="project-card">
+                  <img class="project-image" src="src/images/blog1.png" alt="Project One Image"/>
+                  <h3>What is Machine Learning and Why is it Important?</h3>
+                  <p class="subtext">In this article I have be covered the questions like What is Machine Learning, What are the type of ML. </p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="https://devanshupadhyay01.medium.com/what-is-machine-learning-and-why-is-it-important-dfcb8fbdef97">View here</a></p>
+              </div>
+              <div class="project-card">
+                <img class="project-image" src="src/images/blog2.png" alt="Project One Image"/>
+                <h3>Learn How to Setup Flutter with Android Studio</h3>
+                <p class="subtext">A perfect guide for installation of Flutter SDK in your machine</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://devanshupadhyay01.medium.com/learn-how-to-setup-flutter-with-android-studio-f26928f6cc2a">View here</a></p>
+              </div>
+              <div class="project-card">
+                <img class="project-image" src="src/images/blog3.png" alt="Project One Image"/>
+                <h3>Coding vs Programming</h3>
+                <p class="subtext">First Blog article. Cleared the concept of <b>Coding</b> and <b>Programming</b></p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://devanshupadhyay01.medium.com/coding-vs-programming-7cc90ca3f59f">View here</a></p>
+              </div>
+          </div>
+      </section>
+      <footer id="contact-me">
+          <h2>Contact</h2>
+          <p>Lets Create something together! Get in touch</p>
+          <p><a id="email" href="mailto:devanshupadhyay26@gmail.com">devanshupadhyay26@gmail.com</a></p>
+      </footer>
+    <script src="src/app.js"></script>
+  </body>
 </html>
